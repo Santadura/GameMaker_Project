@@ -1,0 +1,1 @@
+tile_wall = layer_tilemap_get_id("Tile_wall")
