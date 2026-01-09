@@ -1,8 +1,8 @@
 hspeed = 0
 vspeed = 0
 if(keyboard_check(ord("W"))){
-	vspeed = -15	
-	sprite_index = spr_player31_right_walk
+	vspeed = -8	
+	sprite_index = spr_player31_up_walk
 }
 else if(keyboard_check_released(ord("W"))){
 	vspeed = 0;
@@ -10,7 +10,7 @@ else if(keyboard_check_released(ord("W"))){
 }
 
 if(keyboard_check(ord("S"))){
-	vspeed = 15	
+	vspeed = 8	
 	sprite_index = spr_player31_down_walk
 }
 else if(keyboard_check_released(ord("S"))){
@@ -20,7 +20,7 @@ else if(keyboard_check_released(ord("S"))){
 
 
 if(keyboard_check(ord("A"))){
-	hspeed = -15
+	hspeed = -8
 	sprite_index = spr_player31_left_walk
 }
 else if(keyboard_check_released(ord("A"))){
@@ -29,7 +29,7 @@ else if(keyboard_check_released(ord("A"))){
 }
 
 if(keyboard_check(ord("D"))){
-	hspeed = 15
+	hspeed = 8
 	sprite_index = spr_player31_right_walk
 }
 else if(keyboard_check_released(ord("D"))){

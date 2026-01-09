@@ -31,7 +31,7 @@
   "origin":9,
   "parent":{
     "name":"lv1",
-    "path":"folders/Sprites/Player/Player1/lv1.yy",
+    "path":"folders/Sprites/Decor/Player/Player1/lv1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
