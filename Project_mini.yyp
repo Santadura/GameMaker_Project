@@ -47,8 +47,6 @@
     {"id":{"name":"rm_physiscal","path":"rooms/rm_physiscal/rm_physiscal.yy",},},
     {"id":{"name":"land","path":"sprites/land/land.yy",},},
     {"id":{"name":"land7","path":"sprites/land7/land7.yy",},},
-    {"id":{"name":"Lich1_Attack_with_shadow","path":"sprites/Lich1_Attack_with_shadow/Lich1_Attack_with_shadow.yy",},},
-    {"id":{"name":"Lich1_Idle_with_shadow","path":"sprites/Lich1_Idle_with_shadow/Lich1_Idle_with_shadow.yy",},},
     {"id":{"name":"main_bg","path":"sprites/main_bg/main_bg.yy",},},
     {"id":{"name":"spr_bg_biology","path":"sprites/spr_bg_biology/spr_bg_biology.yy",},},
     {"id":{"name":"spr_bg_chemistry","path":"sprites/spr_bg_chemistry/spr_bg_chemistry.yy",},},

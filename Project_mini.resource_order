@@ -26,7 +26,6 @@
     {"name":"rm_biology","order":2,"path":"rooms/rm_biology/rm_biology.yy",},
     {"name":"rm_chemistry","order":1,"path":"rooms/rm_chemistry/rm_chemistry.yy",},
     {"name":"land7","order":5,"path":"sprites/land7/land7.yy",},
-    {"name":"Lich1_Attack_with_shadow","order":1,"path":"sprites/Lich1_Attack_with_shadow/Lich1_Attack_with_shadow.yy",},
     {"name":"main_bg","order":6,"path":"sprites/main_bg/main_bg.yy",},
     {"name":"spr_bg_chemistry","order":2,"path":"sprites/spr_bg_chemistry/spr_bg_chemistry.yy",},
     {"name":"spr_biology_decor_ts","order":1,"path":"sprites/spr_biology_decor_ts/spr_biology_decor_ts.yy",},
