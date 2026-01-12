@@ -6,6 +6,7 @@ game_paused = false;
 current_question = 0;
 chosen_answer = -1;
 correct_answer = "";
+obstacle_ref = noone;
 
 // Ngân hàng câu hỏi - [câu hỏi, đáp án A, B, C, D, đáp án đúng]
 question_bank = [

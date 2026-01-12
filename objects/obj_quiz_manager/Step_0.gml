@@ -22,14 +22,15 @@ if (show_quiz) {
 function check_answer() {
     if (chosen_answer == correct_answer) {
         show_message("Đúng rồi!");
-        instance_destroy(other); // Xóa obstacle
+        if (instance_exists(obstacle_ref)) {
+            instance_destroy(obstacle_ref);
+        }
     } else {
         show_message("Sai rồi!");
-        // Xử lý khi sai (trừ máu, v.v.)
     }
-    
-    // Đóng popup và tiếp tục game
     show_quiz = false;
     game_paused = false;
-    instance_activate_all(); // Activate lại tất cả objects
+    obstacle_ref = noone;
+    instance_activate_all();
 }
+
