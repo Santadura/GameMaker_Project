@@ -1,1 +1,0 @@
-sprite_index = spr_player11_up_attack

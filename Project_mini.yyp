@@ -40,13 +40,15 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.212",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"Project_mini",
   "resources":[
     {"id":{"name":"fnt_vietnamese","path":"fonts/fnt_vietnamese/fnt_vietnamese.yy",},},
     {"id":{"name":"obj_obc1","path":"objects/obj_obc1/obj_obc1.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
+    {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"obj_player3","path":"objects/obj_player3/obj_player3.yy",},},
     {"id":{"name":"obj_quiz_manager","path":"objects/obj_quiz_manager/obj_quiz_manager.yy",},},
     {"id":{"name":"rm_biology","path":"rooms/rm_biology/rm_biology.yy",},},
