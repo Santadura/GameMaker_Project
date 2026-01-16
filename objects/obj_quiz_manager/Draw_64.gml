@@ -35,7 +35,7 @@ if (show_quiz) {
     draw_set_color(make_color_rgb(220, 230, 200)); 
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
-    draw_text_transformed(popup_x + popup_w/2, popup_y + 40, "BẠN QUÁ NGU, HÃY TRẢ LỜI ĐỂ SỐNG SÓT", 1.5, 1.5, 0);
+    draw_text_transformed(popup_x + popup_w/2, popup_y + 40, "HÃY TRẢ LỜI ĐỂ SỐNG SÓT", 1.5, 1.5, 0);
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
     var question_y = popup_y + 100;

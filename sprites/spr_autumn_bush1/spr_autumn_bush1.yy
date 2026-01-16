@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"obs1",
-    "path":"folders/Sprites/Obstacles/obs1.yy",
+    "path":"folders/Sprites/Obstacles/lv1/obs1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
