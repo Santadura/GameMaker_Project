@@ -33,7 +33,7 @@
   "origin":0,
   "parent":{
     "name":"obs2",
-    "path":"folders/Sprites/Obstacles/lv1/obs2.yy",
+    "path":"folders/Sprites/Obstacles/lv2/obs2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
