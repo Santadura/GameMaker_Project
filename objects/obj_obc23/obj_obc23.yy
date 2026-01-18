@@ -11,8 +11,8 @@
   "name":"obj_obc23",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Object/Obstacles.yy",
+    "name":"lv3",
+    "path":"folders/Object/Obstacles/lv3.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Burned_tree2",
-    "path":"sprites/Burned_tree2/Burned_tree2.yy",
+    "name":"Broken_tree7",
+    "path":"sprites/Broken_tree7/Broken_tree7.yy",
   },
   "spriteMaskId":null,
   "visible":true,

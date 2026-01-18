@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Musgroom1_2",
-    "path":"sprites/Musgroom1_2/Musgroom1_2.yy",
+    "name":"Musgroom1_3",
+    "path":"sprites/Musgroom1_3/Musgroom1_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

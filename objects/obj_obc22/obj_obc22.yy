@@ -11,8 +11,8 @@
   "name":"obj_obc22",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Object/Obstacles.yy",
+    "name":"lv2",
+    "path":"folders/Object/Obstacles/lv2.yy",
   },
   "parentObjectId":null,
   "persistent":false,

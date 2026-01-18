@@ -11,8 +11,8 @@
   "name":"obj_obc12",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Object/Obstacles.yy",
+    "name":"lv2",
+    "path":"folders/Object/Obstacles/lv2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_autumn_bush1",
-    "path":"sprites/spr_autumn_bush1/spr_autumn_bush1.yy",
+    "name":"Bush_blue_flowers1155",
+    "path":"sprites/Bush_blue_flowers1155/Bush_blue_flowers1155.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obc32",
+  "%Name":"ene1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player3","path":"objects/obj_player3/obj_player3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_obc32",
+  "name":"ene1",
   "overriddenProperties":[],
   "parent":{
-    "name":"lv2",
-    "path":"folders/Object/Obstacles/lv2.yy",
+    "name":"lv1",
+    "path":"folders/Object/Enemy/lv1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Mushroom2_2",
-    "path":"sprites/Mushroom2_2/Mushroom2_2.yy",
+    "name":"spr_enemy11_left_run",
+    "path":"sprites/spr_enemy11_left_run/spr_enemy11_left_run.yy",
   },
   "spriteMaskId":null,
   "visible":true,
