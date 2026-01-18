@@ -31,7 +31,7 @@
   ],
   "name":"spr_player31_down_attack",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"lv1",
     "path":"folders/Sprites/Decor/Player/Player3/lv1.yy",
@@ -107,7 +107,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":40,
     "yorigin":0,
   },
   "swatchColours":null,
