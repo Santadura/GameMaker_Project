@@ -4,6 +4,19 @@ alarm[0] = 60
 
 global.level = 1
 
+player_speed = 5
+
+global.hp_lost = 1
+
+global.max_hp = 6;
+global.hp = 6;
+
+global.sprite_health_index = spr_health;
+global.image_health_index = global.max_hp - global.hp;
+image_speed = 0;
+
+global.correcting = 0
+
 if (!instance_exists(obj_health)) {
     instance_create_layer(78, 50, "Instances", obj_health);
 }

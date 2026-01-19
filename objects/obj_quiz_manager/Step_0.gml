@@ -33,11 +33,12 @@ if (show_result) {
 }
 
 // Function kiểm tra đáp án
-// Function kiểm tra đáp án
 function check_answer() {
     is_correct = (chosen_answer == correct_answer);
     
     if (is_correct) {
+		global.point+=1
+		global.correcting+=1
         var praise_messages = [
             "Xuất sắc! Bạn thật thông minh!",
             "Tuyệt vời! Tiếp tục phát huy nhé!",
@@ -48,6 +49,9 @@ function check_answer() {
         result_message = praise_messages[irandom(array_length(praise_messages) - 1)];
     }
     else {
+		global.incorrect+=1
+		global.hp -= global.hp_lost;
+		global.image_health_index = global.max_hp - global.hp;
         var encourage_messages = [
             "Đừng nản! Lần sau bạn sẽ làm tốt hơn!",
             "Không sao! Mỗi lần sai là một lần học hỏi!",

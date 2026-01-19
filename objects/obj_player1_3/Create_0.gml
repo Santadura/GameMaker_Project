@@ -1,5 +1,19 @@
 tile_wall = layer_tilemap_get_id("Tile_wall");
 
+alarm[0] = 60
+
+global.level = 3
+
+player_speed = 10
+
+global.hp_lost = 3
+
+global.correcting = 0
+
+if (!instance_exists(obj_health)) {
+    instance_create_layer(78, 50, "Instances", obj_health);
+}
+
 spr_player_down_idle  = spr_player13_down_idle;
 spr_player_up_idle    = spr_player13_up_idle;
 spr_player_left_idle  = spr_player13_left_idle;

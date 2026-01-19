@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player1_2",
+  "%Name":"obj_gate",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player1_2",
+  "name":"obj_gate",
   "overriddenProperties":[],
   "parent":{
-    "name":"lv2",
-    "path":"folders/Object/Player/lv2.yy",
+    "name":"Player",
+    "path":"folders/Object/Player.yy",
   },
-  "parentObjectId":{
-    "name":"obj_player",
-    "path":"objects/obj_player/obj_player.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player12_down_idle",
-    "path":"sprites/spr_player12_down_idle/spr_player12_down_idle.yy",
+    "name":"spr_gate",
+    "path":"sprites/spr_gate/spr_gate.yy",
   },
   "spriteMaskId":null,
   "visible":true,
