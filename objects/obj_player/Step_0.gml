@@ -1,7 +1,7 @@
 hspeed = 0
 vspeed = 0
 if(keyboard_check(ord("W"))){
-	vspeed = -8	
+	vspeed = - player_speed	
 	sprite_index = spr_player_up_walk
 }
 else if(keyboard_check_released(ord("W"))){
@@ -10,7 +10,7 @@ else if(keyboard_check_released(ord("W"))){
 }
 
 if(keyboard_check(ord("S"))){
-	vspeed = 8	
+	vspeed = player_speed
 	sprite_index = spr_player_down_walk
 }
 else if(keyboard_check_released(ord("S"))){
@@ -20,7 +20,7 @@ else if(keyboard_check_released(ord("S"))){
 
 
 if(keyboard_check(ord("A"))){
-	hspeed = -8
+	hspeed = -player_speed
 	sprite_index = spr_player_left_walk
 }
 else if(keyboard_check_released(ord("A"))){
@@ -29,7 +29,7 @@ else if(keyboard_check_released(ord("A"))){
 }
 
 if(keyboard_check(ord("D"))){
-	hspeed = 8
+	hspeed = player_speed
 	sprite_index = spr_player_right_walk
 }
 else if(keyboard_check_released(ord("D"))){
@@ -37,12 +37,14 @@ else if(keyboard_check_released(ord("D"))){
 	sprite_index = spr_player_right_idle
 }
 if(keyboard_check_pressed(ord("H"))){
-	global.hp -= 1;
+	global.hp -= global.hp_lost;
 	global.image_health_index = global.max_hp - global.hp;
+	global.incorrect+=1
 }
 
 if(keyboard_check_pressed(ord("J"))){
 	global.point += 1
+	global.correcting+=1
 }
 
 if (global.hp <= 0) {
@@ -50,9 +52,10 @@ if (global.hp <= 0) {
     room_goto(rm_end);
 }
 
-if (global.point >= 9) {
-	global.win = 1
-    room_goto(rm_end);
+if (global.correcting >= 3) {
+	if(!instance_exists(obj_gate)){
+		instance_create_layer(0,0,"Instances",obj_gate)
+	}
 }
 
 #region xử lý va chạm

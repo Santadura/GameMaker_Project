@@ -9,8 +9,8 @@
   "name":"obj_title_end",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Object/Menu.yy",
+    "name":"End",
+    "path":"folders/Object/End.yy",
   },
   "parentObjectId":null,
   "persistent":false,
