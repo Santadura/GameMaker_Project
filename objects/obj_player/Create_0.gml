@@ -15,7 +15,7 @@ global.hp = 6;
 
 global.sprite_health_index = spr_health;
 global.image_health_index = global.max_hp - global.hp;
-image_speed = 0;
+//sdimage_speed = 0;
 
 
 if (!instance_exists(obj_health)) {
@@ -35,3 +35,13 @@ spr_player_down_walk  = spr_player11_down_walk;
 spr_player_up_walk    = spr_player11_up_walk;
 spr_player_left_walk  = spr_player11_left_walk;
 spr_player_right_walk = spr_player11_right_walk;
+
+// Biến attack
+is_attacking = false;
+attack_timer = 0;
+attack_duration = 20;  // 20 frames = ~0.33 giây
+last_direction = "down";  // Hướng mặc định
+
+// Thiết lập hitbox
+attack_range = 70;  // Phạm vi đánh (pixels)
+attack_offset = 50;  // Khoảng cách hitbox từ player

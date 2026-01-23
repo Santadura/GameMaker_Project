@@ -26,7 +26,7 @@
   ],
   "name":"spr_player31_down_idle",
   "nineSlice":null,
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"lv1",
     "path":"folders/Sprites/Decor/Player/Player3/lv1.yy",
@@ -88,7 +88,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":40,
-    "yorigin":0,
+    "yorigin":35,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
