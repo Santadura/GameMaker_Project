@@ -39,9 +39,11 @@ spr_player_right_walk = spr_player11_right_walk;
 // Biến attack
 is_attacking = false;
 attack_timer = 0;
-attack_duration = 20;  // 20 frames = ~0.33 giây
-last_direction = "down";  // Hướng mặc định
+attack_duration = 20;  // Tổng thời gian attack (20 frames)
+attack_hit_frame = 10;  // Hitbox kích hoạt ở frame 10 (GIỮA)
+attack_hit_triggered = false;
+last_direction = "down";
 
 // Thiết lập hitbox
-attack_range = 70;  // Phạm vi đánh (pixels)
-attack_offset = 50;  // Khoảng cách hitbox từ player
+attack_range = 70;
+attack_offset = 50;

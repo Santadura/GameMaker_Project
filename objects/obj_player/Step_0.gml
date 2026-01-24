@@ -5,33 +5,52 @@ vspeed = 0
 if (keyboard_check_pressed(vk_space) && !is_attacking) {
     is_attacking = true;
     attack_timer = attack_duration;
+    attack_hit_triggered = false;  // Reset flag
     
-    // Đổi sang sprite attack và tạo hitbox theo hướng
+    // Đổi sang sprite attack theo hướng
     switch(last_direction) {
         case "up":
             sprite_index = spr_player_up_attack;
-            check_attack_hit(0, -attack_offset);  // Hitbox phía trên
             break;
         case "down":
             sprite_index = spr_player_down_attack;
-            check_attack_hit(0, attack_offset);   // Hitbox phía dưới
             break;
         case "left":
             sprite_index = spr_player_left_attack;
-            check_attack_hit(-attack_offset, 0);  // Hitbox bên trái
             break;
         case "right":
             sprite_index = spr_player_right_attack;
-            check_attack_hit(attack_offset, 0);   // Hitbox bên phải
             break;
     }
-    image_index = 0;  // Bắt đầu animation từ đầu
+    image_index = 0;  // Bắt đầu từ đầu
 }
 
 // Đếm thời gian attack
 if (is_attacking) {
     attack_timer--;
     
+    // KÍCH HOẠT HITBOX Ở GIỮA ANIMATION (khi còn 10 frames)
+    if (attack_timer == attack_hit_frame && !attack_hit_triggered) {
+        attack_hit_triggered = true;
+        
+        // Tạo hitbox theo hướng
+        switch(last_direction) {
+            case "up":
+                check_attack_hit(0, -attack_offset);
+                break;
+            case "down":
+                check_attack_hit(0, attack_offset);
+                break;
+            case "left":
+                check_attack_hit(-attack_offset, 0);
+                break;
+            case "right":
+                check_attack_hit(attack_offset, 0);
+                break;
+        }
+    }
+    
+    // Kết thúc attack
     if (attack_timer <= 0) {
         is_attacking = false;
         
@@ -148,18 +167,24 @@ function check_attack_hit(offset_x, offset_y) {
     var hitbox_x = x + offset_x;
     var hitbox_y = y + offset_y;
     
-    // Tìm tất cả enemy trong phạm vi
-    with (ene1) {
-        var dist = point_distance(hitbox_x, hitbox_y, x, y);
+    // Kiểm tra có enemy không
+    if (!instance_exists(ene1)) {
+        return;
+    }
+    
+    // Tìm enemy gần nhất
+    var nearest_enemy = instance_nearest(hitbox_x, hitbox_y, ene1);
+    
+    if (instance_exists(nearest_enemy)) {
+        var dist = point_distance(hitbox_x, hitbox_y, nearest_enemy.x, nearest_enemy.y);
         
-        if (dist < other.attack_range) {
-            // Đánh trúng enemy
-            instance_destroy();
-           // other.global.point += 1;
-           // other.global.correcting += 1;
+        if (dist < attack_range) {
+            // Đánh trúng
+            instance_destroy(nearest_enemy);
             
-            // Hiệu ứng (optional)
-            // effect_create_above(ef_spark, x, y, 1, c_yellow);
+            // Tăng điểm
+            //global.point += 1;
+            //global.correcting += 1;
         }
     }
 }
