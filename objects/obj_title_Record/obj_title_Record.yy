@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_title_end",
+  "%Name":"obj_title_Record",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_title_end",
+  "name":"obj_title_Record",
   "overriddenProperties":[],
   "parent":{
     "name":"End_Record",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_lose_word",
-    "path":"sprites/spr_lose_word/spr_lose_word.yy",
+    "name":"spr_record_word",
+    "path":"sprites/spr_record_word/spr_record_word.yy",
   },
   "spriteMaskId":null,
   "visible":true,
