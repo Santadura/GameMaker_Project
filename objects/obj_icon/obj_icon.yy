@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_title_end",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_icon",
+  "eventList":[],
   "managed":true,
-  "name":"obj_title_end",
+  "name":"obj_icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"End_Record",
-    "path":"folders/Object/End_Record.yy",
+    "name":"Button",
+    "path":"folders/Object/Button.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_lose_word",
-    "path":"sprites/spr_lose_word/spr_lose_word.yy",
+    "name":"spr_sound_icon",
+    "path":"sprites/spr_sound_icon/spr_sound_icon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -34,3 +34,15 @@ spr_player_down_walk  = spr_player21_down_walk;
 spr_player_up_walk    = spr_player21_up_walk;
 spr_player_left_walk  = spr_player21_left_walk;
 spr_player_right_walk = spr_player21_right_walk;
+
+// Biến attack
+is_attacking = false;
+attack_timer = 0;
+attack_duration = 50;  // Tổng thời gian attack (20 frames)
+attack_hit_frame = 10;  // Hitbox kích hoạt ở frame 10 (GIỮA)
+attack_hit_triggered = false;
+last_direction = "down";
+
+// Thiết lập hitbox
+attack_range = 70;
+attack_offset = 50;
