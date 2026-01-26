@@ -3,6 +3,8 @@ vspeed = 0
 
 // ===== XỬ LÝ ATTACK =====
 if (keyboard_check_pressed(vk_space) && !is_attacking) {
+	if global.sound == 1
+		audio_play_sound(snd_player_attack,1,false)
     is_attacking = true;
     attack_timer = attack_duration;
     attack_hit_triggered = false;  // Reset flag

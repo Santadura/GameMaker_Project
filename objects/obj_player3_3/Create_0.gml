@@ -39,3 +39,6 @@ last_direction = "down";
 // Thiết lập hitbox
 attack_range = 70;
 attack_offset = 50;
+
+// Sound
+snd_player_attack = snd_player3_attack

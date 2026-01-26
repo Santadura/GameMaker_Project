@@ -14,3 +14,5 @@ spr_idle = Mushroom1_Idle_with_shadow;
 spr_left = spr_mushroom1_left_run;
 spr_right = spr_mushroom1_right_run;
 spr_autumn = Musgroom1_2;
+
+player = obj_player2

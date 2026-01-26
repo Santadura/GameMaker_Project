@@ -12,3 +12,5 @@ spr_idle = spr_flower_idle;
 spr_left = spr_flower_left_run;
 spr_right = spr_flower_right_run;
 spr_autumn = spr_autumn_bush1;
+
+player = obj_player2_2
