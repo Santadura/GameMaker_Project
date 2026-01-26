@@ -1,10 +1,15 @@
-// Collision với player
-if (instance_exists(obj_quiz_manager) && !obj_quiz_manager.show_quiz) {
-    obj_quiz_manager.show_quiz = true;
-    obj_quiz_manager.game_paused = true;
-	obj_quiz_manager.obstacle_ref = id;
-    obj_quiz_manager.pick_random_question(); 
+// Collision Event của obstacle với player
+	if (!obj_quiz_manager.show_quiz) {
+	    obj_quiz_manager.show_quiz = true;
+	    obj_quiz_manager.game_paused = true;
+	    obj_quiz_manager.obstacle_ref = id;
     
-    instance_deactivate_all(true); 
-    instance_activate_object(obj_quiz_manager);
-}
+	    // Thiết lập môn và level (tùy vào room)
+	    //obj_quiz_manager.set_subject_and_level("physics", 1);  // Vật lý level 1
+	    //obj_quiz_manager.set_subject_and_level("chemistry", 2);  // Hóa level 2
+	    obj_quiz_manager.set_subject_and_level("chemistry", 1);  // Sinh level 3
+	    obj_quiz_manager.pick_random_question();
+    
+	    instance_deactivate_all(true);
+	    instance_activate_object(obj_quiz_manager);
+	}

@@ -7,7 +7,7 @@
 	    // Thiết lập môn và level (tùy vào room)
 	    //obj_quiz_manager.set_subject_and_level("physics", 1);  // Vật lý level 1
 	    //obj_quiz_manager.set_subject_and_level("chemistry", 2);  // Hóa level 2
-	    obj_quiz_manager.set_subject_and_level("biology", 3);  // Sinh level 3
+	    obj_quiz_manager.set_subject_and_level("biology", 1);  // Sinh level 3
 	    obj_quiz_manager.pick_random_question();
     
 	    instance_deactivate_all(true);
