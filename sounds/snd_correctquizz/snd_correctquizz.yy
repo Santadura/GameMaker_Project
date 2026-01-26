@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":42.36,
+  "duration":8.0979595,
   "exportDir":"",
   "name":"snd_correctquizz",
   "parent":{

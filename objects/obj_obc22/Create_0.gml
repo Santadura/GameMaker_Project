@@ -12,3 +12,5 @@ spr_idle = Ent1_Idle_with_shadow;
 spr_left = spr_tree1_left_run;
 spr_right = spr_tree1_right_run;
 spr_autumn = Burned_tree3;
+
+player = obj_player1_2

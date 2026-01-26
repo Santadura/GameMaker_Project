@@ -82,7 +82,9 @@
     {"$GMFolder":"","%Name":"Tileset","folderPath":"folders/Tileset.yy","name":"Tileset","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Video Project 1.m4a","CopyToMask":0,"filePath":"datafiles","name":"Video Project 1.m4a","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -107,6 +109,7 @@
     {"id":{"name":"obj_health","path":"objects/obj_health/obj_health.yy",},},
     {"id":{"name":"obj_home","path":"objects/obj_home/obj_home.yy",},},
     {"id":{"name":"obj_icon","path":"objects/obj_icon/obj_icon.yy",},},
+    {"id":{"name":"obj_obc","path":"objects/obj_obc/obj_obc.yy",},},
     {"id":{"name":"obj_obc1","path":"objects/obj_obc1/obj_obc1.yy",},},
     {"id":{"name":"obj_obc12","path":"objects/obj_obc12/obj_obc12.yy",},},
     {"id":{"name":"obj_obc13","path":"objects/obj_obc13/obj_obc13.yy",},},
@@ -155,6 +158,7 @@
     {"id":{"name":"snd_player1_attack","path":"sounds/snd_player1_attack/snd_player1_attack.yy",},},
     {"id":{"name":"snd_player2_attack","path":"sounds/snd_player2_attack/snd_player2_attack.yy",},},
     {"id":{"name":"snd_player3_attack","path":"sounds/snd_player3_attack/snd_player3_attack.yy",},},
+    {"id":{"name":"snd_teleport","path":"sounds/snd_teleport/snd_teleport.yy",},},
     {"id":{"name":"Broken_tree7","path":"sprites/Broken_tree7/Broken_tree7.yy",},},
     {"id":{"name":"Burned_tree2","path":"sprites/Burned_tree2/Burned_tree2.yy",},},
     {"id":{"name":"Burned_tree3","path":"sprites/Burned_tree3/Burned_tree3.yy",},},
