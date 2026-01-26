@@ -1,12 +1,12 @@
 // Kiểm tra player có tồn tại không
-if (!instance_exists(obj_player1)) {  // Thay obj_player3 = tên player của bạn
+if (!instance_exists(obj_player1_3)) {  // Thay obj_player3 = tên player của bạn
     exit;
 }
 
-var dist = distance_to_object(obj_player1);
+var dist = distance_to_object(obj_player1_3);
 
 // Xác định hướng player
-if (obj_player1.x < x) {
+if (obj_player1_3.x < x) {
     facing_direction = "left";
 } else {
     facing_direction = "right";
@@ -30,7 +30,7 @@ if (state == "chase") {
     }
     else {
         // Di chuyển về phía player
-        move_towards_point(obj_player1.x, obj_player1.y, chase_speed);
+        move_towards_point(obj_player1_3.x, obj_player1_3.y, chase_speed);
         
         // Đổi sprite theo hướng
         if (facing_direction == "left") {
@@ -90,7 +90,7 @@ function trigger_quiz() {
         obj_quiz_manager.obstacle_ref = id;
         
         // Thiết lập môn và level
-        obj_quiz_manager.set_subject_and_level("biology", 1);
+        obj_quiz_manager.set_subject_and_level("biology", 3);
         obj_quiz_manager.pick_random_question();
         
         // Dừng game

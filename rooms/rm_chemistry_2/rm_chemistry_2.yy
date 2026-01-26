@@ -11,6 +11,7 @@
     {"name":"inst_3E88A435","path":"rooms/rm_chemistry_2/rm_chemistry_2.yy",},
     {"name":"inst_38C25506","path":"rooms/rm_chemistry_2/rm_chemistry_2.yy",},
     {"name":"inst_225B1D6B","path":"rooms/rm_chemistry_2/rm_chemistry_2.yy",},
+    {"name":"inst_2D0CF5C9","path":"rooms/rm_chemistry_2/rm_chemistry_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
         {"$GMRInstance":"v4","%Name":"inst_3E88A435","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E88A435","objectId":{"name":"obj_obc32","path":"objects/obj_obc32/obj_obc32.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":1024.0,},
         {"$GMRInstance":"v4","%Name":"inst_38C25506","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38C25506","objectId":{"name":"obj_obc32","path":"objects/obj_obc32/obj_obc32.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_225B1D6B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_225B1D6B","objectId":{"name":"obi_handle_ingame","path":"objects/obi_handle_ingame/obi_handle_ingame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1408.0,"y":544.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2D0CF5C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D0CF5C9","objectId":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2784.0,"y":544.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tile_wall","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":188,"TileCompressedData":[
           -45,0,-9,-2147483648,-32,0,-15,-2147483648,-173,0,-15,-2147483648,-173,0,-15,-2147483648,-173,0,-15,

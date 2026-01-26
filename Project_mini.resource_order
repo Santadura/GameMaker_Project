@@ -1,7 +1,9 @@
 {
   "FolderOrderSettings":[
     {"name":"Enemy","order":1,"path":"folders/Object/Enemy.yy",},
+    {"name":"lv3","order":3,"path":"folders/Object/Enemy/lv3.yy",},
     {"name":"lv1","order":1,"path":"folders/Object/Enemy/lv1.yy",},
+    {"name":"lv2","order":2,"path":"folders/Object/Enemy/lv2.yy",},
     {"name":"lv1","order":2,"path":"folders/Object/Obstacles/lv1.yy",},
     {"name":"lv3","order":1,"path":"folders/Object/Obstacles/lv3.yy",},
     {"name":"lv1","order":1,"path":"folders/Object/Player/lv1.yy",},
@@ -12,6 +14,12 @@
     {"name":"fnt_level","order":2,"path":"fonts/fnt_level/fnt_level.yy",},
     {"name":"fnt_score","order":1,"path":"fonts/fnt_score/fnt_score.yy",},
     {"name":"fnt_vietnamese_30","order":3,"path":"fonts/fnt_vietnamese_30/fnt_vietnamese_30.yy",},
+    {"name":"ene2_2","order":1,"path":"objects/ene2_2/ene2_2.yy",},
+    {"name":"ene2_3","order":1,"path":"objects/ene2_3/ene2_3.yy",},
+    {"name":"ene2","order":1,"path":"objects/ene2/ene2.yy",},
+    {"name":"ene3_2","order":2,"path":"objects/ene3_2/ene3_2.yy",},
+    {"name":"ene3_3","order":2,"path":"objects/ene3_3/ene3_3.yy",},
+    {"name":"ene3","order":2,"path":"objects/ene3/ene3.yy",},
     {"name":"obi_handle_ingame","order":3,"path":"objects/obi_handle_ingame/obi_handle_ingame.yy",},
     {"name":"obj_bg_che","order":1,"path":"objects/obj_bg_che/obj_bg_che.yy",},
     {"name":"obj_bg_phy","order":2,"path":"objects/obj_bg_phy/obj_bg_phy.yy",},
