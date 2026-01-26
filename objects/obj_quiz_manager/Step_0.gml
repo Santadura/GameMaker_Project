@@ -39,6 +39,9 @@ function check_answer() {
     if (is_correct) {
 		global.point+=1
 		global.correcting+=1
+		if (global.sound == 1) {
+	        audio_play_sound(snd_correctquizz, 1, false);
+	    }
         var praise_messages = [
             "Xuất sắc! Bạn thật thông minh!",
             "Tuyệt vời! Tiếp tục phát huy nhé!",
@@ -52,6 +55,9 @@ function check_answer() {
 		global.incorrect+=1
 		global.hp -= global.hp_lost;
 		global.image_health_index = global.max_hp - global.hp;
+		if (global.sound == 1) {
+	        audio_play_sound(snd_incorrectquizz, 1, false);
+	    }
         var encourage_messages = [
             "Đừng nản! Lần sau bạn sẽ làm tốt hơn!",
             "Không sao! Mỗi lần sai là một lần học hỏi!",

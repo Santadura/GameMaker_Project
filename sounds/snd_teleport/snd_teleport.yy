@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_gamelose",
+  "%Name":"snd_teleport",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.5338776,
+  "duration":2.507755,
   "exportDir":"",
-  "name":"snd_gamelose",
+  "name":"snd_teleport",
   "parent":{
     "name":"Sound",
     "path":"folders/Sound.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_gamelose.mp3",
+  "soundFile":"snd_teleport.mp3",
   "volume":1.0,
 }
