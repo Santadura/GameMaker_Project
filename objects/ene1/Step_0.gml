@@ -47,9 +47,12 @@ else if (state == "attack") {
     attack_timer--;
     
     // Kiểm tra đánh trúng player trong phạm vi
-    if (dist < attack_hit_range && !has_triggered_quiz) {
-        has_triggered_quiz = true;
-        trigger_quiz();
+   // ✅ TRIGGER QUIZ KHI ANIMATION GẦN KẾT THÚC (5 frames cuối)
+    if (attack_timer <= 5 && attack_timer > 0) {
+        if (dist < attack_hit_range && !has_triggered_quiz) {
+            has_triggered_quiz = true;
+            trigger_quiz();
+        }
     }
     
     // Kết thúc animation tấn công

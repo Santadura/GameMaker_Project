@@ -7,8 +7,8 @@ image_yscale = 3;
 // Biến trạng thái
 state = "chase";  // chase, attack
 chase_speed = 2.5;
-attack_range = 80;  // Phạm vi bắt đầu tấn công (pixels)
-attack_hit_range = 60;  // Phạm vi đánh trúng player
+attack_range = 50;  // Phạm vi bắt đầu tấn công (pixels)
+attack_hit_range = 30;  // Phạm vi đánh trúng player
 
 // Biến sprite
 spr_left_run = spr_enemy22_left_run;
