@@ -4,7 +4,7 @@ image_speed = 0.5;
 
 // Biến trạng thái
 state = "idle";           // idle, alert, chase
-detection_range = 150;    // Phạm vi phát hiện (150 pixels)
+detection_range = 120;    // Phạm vi phát hiện (150 pixels)
 chase_speed = 5;          // Tốc độ rượt đuổi
 
 // Biến sprite

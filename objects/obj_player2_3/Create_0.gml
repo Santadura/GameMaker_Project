@@ -37,7 +37,7 @@ attack_hit_triggered = false;
 last_direction = "down";
 
 // Thiết lập hitbox
-attack_range = 70;
+attack_range = 140;
 attack_offset = 50;
 
 

@@ -6,8 +6,8 @@ image_yscale = 3;
 
 // Biến trạng thái
 state = "idle";           // idle, alert, chase
-detection_range = 150;    // Phạm vi phát hiện (150 pixels)
-chase_speed = 5;          // Tốc độ rượt đuổi
+detection_range = 90;    // Phạm vi phát hiện (150 pixels)
+chase_speed = 3;          // Tốc độ rượt đuổi
 
 // Biến sprite
 spr_idle = Mushroom1_Idle_with_shadow;
